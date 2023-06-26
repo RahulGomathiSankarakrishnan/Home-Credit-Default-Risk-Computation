@@ -1,6 +1,6 @@
 # The project is based on the Home Credit Default Risk (HCDR) Kaggle Competition. The goal of this project is to predict whether or not a client will repay a loan. In order to make sure that people who struggle to get loans due to insufficient or non-existent credit histories have a positive loan experience, Home Credit makes use of a variety of alternative data--including telco and transactional information--to predict their clients' repayment abilities.
 
-## Abstract
+# Abstract
 Home Credit Default Risk Computation is a project where we determine the credit worthiness of people that have applied for the loans. In previous phases, we had completed basic EDA, Feature Engineering and ran the baseline model for logistic regression and the hyperparameter tuning for XGBoost model. In Phase 2, we have significantly improved our project. We have updated the EDA, implemented robust Feature engineering for all dataset files, and did experimental analysis for hyper-parameter tuning for Logistic Regression, XGBoost and Random Forest Models. We conducted experiments using both original imbalanced data as well as resampled data. After comparison we found out that the XGBoost model was the best model. For the deep learning Pytorch model, we built two MLP models. One for classification and one for regression. The mail goal in this phase has been building a multi-layer perception (MLP) model in PyTorch for loan default classification and using Tensorboard to visualize the results of training in real time. Each model has 3 layers. Sigmoid activation function is used for classification and ReLU for regression along with Cross entropy loss. We have acheived a Test accuracy of 92 and Test CXE loss of 0.29.
 
 # Project Description and Data
@@ -19,11 +19,11 @@ credit_card_balance: monthly data about previous credit cards clients have had w
 installments_payment: payment history for previous loans at Home Credit. There is one row for every made payment and one row for every missed payment.
 
 # Tasks Performed in each phase
-# Phase 1
+## Phase 1
 EDA and Building a baseline pipeline model
 
-# Phase 2
+## Phase 2
 Feature Engineering and Hyperparameter tuning, Feature Selection ensemble methods
 
-# Phase 3
+## Phase 3
 Build a multi-layer perception (MLP) model in PyTorch for loan default classification Using Tensorboard to visualise the results of training in real time
